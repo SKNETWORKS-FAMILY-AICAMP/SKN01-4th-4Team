@@ -109,7 +109,6 @@ Vue + Django + FastAPI + Deep Learning Local Server 서비스
 **Recall**: 0.9724</br>
 **F1 Score**: 0.9724</br>
 97%의 정확도로 프로젝트에 사용하기로 결정
-<br>
 
 ### 사용자의 질문 & 답변 데이터를 임베딩하고 유사도 비교
 - 단어의 빈도를 기준으로 벡터화시키고 cosine유사도 비교</br>
@@ -425,7 +424,7 @@ jobs:
   done
   
   echo "${APP_TESTS[@]}"
-```
+  ```
 
 - Django CD 설정
   CI와 유사하게 GitHub Actions를 활용하여 Django 프로젝트의 CD를 설정합니다.
