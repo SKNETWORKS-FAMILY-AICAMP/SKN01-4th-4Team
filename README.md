@@ -535,7 +535,7 @@ jobs:
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white">
   <img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=NGINX&logoColor=white">
   <img src="https://img.shields.io/badge/Amazon Web Services-232F3E?style=for-the-badge&logo=Amazon Web Services&logoColor=white">
-  <img src="https://img.shields.io/badge/Amazon Route 53=8C4FFF?style=for-the-badge&logo=Amazon Route 53&logoColor=white">
+  <img src="https://img.shields.io/badge/Amazon Route 53-8C4FFF?style=for-the-badge&logo=Amazon Route 53&logoColor=white">
 </div>
 
 <div align=left><h3>🕹️ Dev Tool </div>
