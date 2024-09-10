@@ -9,14 +9,14 @@ Vue + Django + FastAPI + Deep Learning Local Server 서비스
     <tr>
       <td align="center">
         <div>
-          <img src="https://github.com/user-attachments/assets/7cbbcc77-39de-4dc6-be12-a2879ce15a0b"width="100px;"height="100px;" alt=""/>
-          <a href="https://github.com/yhoon3002"><div align=center>임영훈</div></a>
+          <img src="https://github.com/user-attachments/assets/c7df2eb9-d897-4acc-87a9-3cdbca2863a6"width="100px;"height="100px;"" alt=""/>
+          <a href="https://github.com/2kilometer"><div align=center>팀장 이경민</div></a>
         </div>
       </td>
       <td align="center">
         <div>
-          <img src="https://github.com/user-attachments/assets/c7df2eb9-d897-4acc-87a9-3cdbca2863a6"width="100px;"height="100px;"" alt=""/>
-          <a href="https://github.com/2kilometer"><div align=center>팀장 이경민</div></a>
+          <img src="https://github.com/user-attachments/assets/7cbbcc77-39de-4dc6-be12-a2879ce15a0b"width="100px;"height="100px;" alt=""/>
+          <a href="https://github.com/yhoon3002"><div align=center>임영훈</div></a>
         </div>
       </td>
       <td align="center">
