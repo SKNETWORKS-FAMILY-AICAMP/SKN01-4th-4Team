@@ -488,6 +488,7 @@ jobs:
 **로그인 및 회원가입 화면**
 ![image](https://github.com/user-attachments/assets/33070908-7837-488f-945e-887606ea4734)
 **채팅 화면**
+![image](https://github.com/user-attachments/assets/6734c5a0-2e66-4818-99ce-ff31ee404cd1)
 ![image](https://github.com/user-attachments/assets/8bbaab13-781f-4f1f-8f81-6fdbc901fe75)
 <br><br>
 
