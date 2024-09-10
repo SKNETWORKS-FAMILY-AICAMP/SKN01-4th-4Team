@@ -384,7 +384,7 @@ jobs:
 
     tar xzf ./actions-runner-linux-arm64-2.317.0.tar.gz
     ```
-    성공
+  - 성공 <br>
     <img src="https://github.com/user-attachments/assets/c88291d6-d8af-45a5-801f-4d7152a8aa01"/>
 
   - curl 명령어 입력 Github의 runners 명령어 실행
@@ -481,12 +481,22 @@ jobs:
 # 10. Result (수행 결과)
 
 **메인 화면**
+<br>
+<br>
 ![image](https://github.com/user-attachments/assets/59c1f86d-b49f-4abe-aaf3-9c2b8a934d6f)
 ![image](https://github.com/user-attachments/assets/7cebbc41-d857-40f0-91b3-03a5564e7fd6)
 ![image](https://github.com/user-attachments/assets/77fe7200-c15c-4e1f-acc0-c67adb8b4e6e)
+<br>
+<br>
 **로그인 및 회원가입 화면**
+<br>
+<br>
 ![image](https://github.com/user-attachments/assets/33070908-7837-488f-945e-887606ea4734)
+<br>
+<br>
 **채팅 화면**
+<br>
+<br>
 ![image](https://github.com/user-attachments/assets/6734c5a0-2e66-4818-99ce-ff31ee404cd1)
 ![image](https://github.com/user-attachments/assets/8bbaab13-781f-4f1f-8f81-6fdbc901fe75)
 <br><br>
