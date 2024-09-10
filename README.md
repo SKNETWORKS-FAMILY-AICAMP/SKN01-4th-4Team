@@ -28,12 +28,15 @@ Vue + Django + FastAPI + Deep Learning Local Server 서비스
     </tr>
   </tbody>
 </table>
-
-<br><br>
+<br>
 
 # 2. Introduction Project (프로젝트 개요)
+### 💙 서비스명 💙
+**TextFarmers**
+
 ### 🧡 소개 🧡
-**의료 데이터를 활용한 챗봇 서비스**  <br><br>
+**의료 데이터를 활용한 챗봇 서비스**  
+
 ### 💚 필요성 💚
 ![image](https://github.com/user-attachments/assets/7e8e6655-ef8e-47b0-a836-afbee9a00fa9)
 현대 사회에서 의료 데이터의 중요성이 점점 커지고 있습니다.</br>
@@ -44,25 +47,22 @@ Vue + Django + FastAPI + Deep Learning Local Server 서비스
 의료계에 지인이 있는 것이 아니라면  물어볼 곳 역시 마땅치 않습니다.</br>
 이를 해결하기 위해 딥러닝 기술로 의료 데이터를 학습하여 접근하기 어려웠던 의료 데이터를</br>
 모두가 쉽게 접근할 수 있도록 사용자 친화적인 챗봇 서비스를 개발하고자 합니다.
-
-
 <br><br>
+
 ### 💛 주요 서비스 💛
 - 건강 진단 챗봇 서비스
 - 의료 정보 제공
 - 성격유형검사(MBTI) T형과 F형 응답을 선택
-
  <br><br>
  
 
 # 3. ERD 구성
 ![image](https://github.com/user-attachments/assets/cb79aba5-ca4c-4cdd-88ec-a622608aba62)
+<br><br>
 
-
-<br><br><br>
 
 # 4. Backend 애자일 보드 - 요구사항 정의서
-### ℹ️ 애자일 보드를 사용하는 이유
+### 🌈 애자일 보드를 사용하는 이유
 ```
 과거 정의서들을 일일히 작성하였지만 빠른 속도로 무언가를 개발하는데 한계가 있습니다.
 처음부터 많은 것들을 빌드업하면서 빠른 생산성을 기반으로 움직이려면 반드시 애자일해야합니다.
@@ -72,33 +72,29 @@ Vue + Django + FastAPI + Deep Learning Local Server 서비스
 고로 빠르게 팀원들과 협업 할 수 있고 소통 비용을 최소화시킬 수 있습니다.
 작은 것 같지만 이와 같은 것들이 쌓여서 아주 기민하고 민첩한 조직을 만들어 냅니다.
 ```
+<br><br>
 
-<br><br><br>
 
 # 5. Frontend 애자일 보드 - 화면 설계서
 ![image](https://github.com/user-attachments/assets/6e391887-b9a4-4cb7-aa13-71ec49599455)
+<br><br>
 
-
-<br><br><br>
 
 # 6. FastAPI 애자일 보드 - AI 서빙 설계서
 ![image](https://github.com/user-attachments/assets/25db9a4a-a01c-4199-8dba-96f37b90066e)
+<br><br>
 
-
-<br><br><br>
 
 # 7. Ai-Client 애자일 보드 - AI 서빙 설계서
 ![image](https://github.com/user-attachments/assets/9ad8b650-2fc2-4aa9-a132-44e20ab309c8)
+<br><br>
 
-
-<br><br><br>
 
 # 7. 시스템 구성도
 ![image](https://github.com/user-attachments/assets/d7c59ec3-6f89-4948-aea5-40ab30ee0854)
 ![image](https://github.com/user-attachments/assets/43f264a9-b2fc-4405-9a4a-e235cb9da50d)
+<br><br>
 
-
-<br><br><br>
 
 # 8. ChatBot Service
 ## 📍 Ai-Client
@@ -108,12 +104,12 @@ Vue + Django + FastAPI + Deep Learning Local Server 서비스
 - BioBERT, KoBERT 모델 사용</br>
 -> 정확도가 너무 낮아 사용이 불가능</br>
 - 최종적으로 BERT 모델의 다국적 버전을 사용함.</br>
-Accuracy: 0.9724</br>
-Precision: 0.9725</br>
-Recall: 0.9724</br>
-F1 Score: 0.9724</br>
-97%의 정확도로 프로젝트에 사용하기로 결정</br>
-</br>
+**Accuracy**: 0.9724</br>
+**Precision**: 0.9725</br>
+**Recall**: 0.9724</br>
+**F1 Score**: 0.9724</br>
+97%의 정확도로 프로젝트에 사용하기로 결정
+<br>
 
 ### 사용자의 질문 & 답변 데이터를 임베딩하고 유사도 비교
 - 단어의 빈도를 기준으로 벡터화시키고 cosine유사도 비교</br>
@@ -151,11 +147,8 @@ F1 Score: 0.9724</br>
         1. <p>태그로 분리해서 출력
         2. 띄어쓰기, \n 없이 출력
 ```
+<br><br>
 
-
-
-
-<br><br><br>
 
 # 9. Autonomous Deploy (자동 배포 진행 절차)
 수동 배포는 개발자가 직접 로컬 환경에서 빌드하고 클라우드로 배포하는 과정을 수행하는 반면, 자동 배포는 코드 변경이 감지되면 CI/CD 파이프라인을 통해 자동으로 빌드, 테스트, 배포되어 개발 생산성과 안정성을 높입니다.
@@ -174,8 +167,7 @@ F1 Score: 0.9724</br>
       Nginx는 어떤 파일들을 서빙할지 설정하며, 이 정보들은 conf 폴더에 저장됩니다.
   - **배포** <br>
     : docker-compose up -d 명령을 통해 Nginx가 설정된 후, Frontend 코드가 EC2 인스턴스에서 동작합니다.
-
-<br><br>
+<br>
 
 ## 📍 Frontend
 ### CI 구성
@@ -484,78 +476,80 @@ jobs:
     app-network:
       driver: bridge
   ```
+<br><br>
 
-<br><br><br>
 
 # 10. Result (수행 결과)
 
-**사이트 화면**
+**메인 화면**
 ![image](https://github.com/user-attachments/assets/59c1f86d-b49f-4abe-aaf3-9c2b8a934d6f)
 ![image](https://github.com/user-attachments/assets/7cebbc41-d857-40f0-91b3-03a5564e7fd6)
 ![image](https://github.com/user-attachments/assets/77fe7200-c15c-4e1f-acc0-c67adb8b4e6e)
+**로그인 및 회원가입 화면**
 ![image](https://github.com/user-attachments/assets/33070908-7837-488f-945e-887606ea4734)
+**채팅 화면**
 ![image](https://github.com/user-attachments/assets/8bbaab13-781f-4f1f-8f81-6fdbc901fe75)
+<br><br>
 
-
-**회원 예측**
-
-<br><br><br>
 
 # 11. Tech Stack (기술 스택)
 <div align=left><h3>🕹️ Frontend</div>
 <div align=left>
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=Vue.js&logoColor=white">
-  <img src="https://img.shields.io/badge/Vuetify-1867C0?style=for-the-badge&logo=Vuetify&logoColor=white">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white">
-  <img src="https://img.shields.io/badge/D3.js-F9A03C?style=for-the-badge&logo=D3.js&logoColor=white">
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=Vue.js&logoColor=white">
+  <img src="https://img.shields.io/badge/Vuetify-1867C0?style=for-the-badge&logo=Vuetify&logoColor=white">
+  <img src="https://img.shields.io/badge/GreenSock-88CE02?style=for-the-badge&logo=GreenSock&logoColor=white">
   <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=Axios&logoColor=white">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
+  <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=ESLint&logoColor=white">
 </div>
 
 <div align=left><h3>🕹️ Backend</div>
 <div aling=left>
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=Django&logoColor=white">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white">
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=Django&logoColor=white">
   <img src="https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=Redis&logoColor=white">
-  <img src="https://img.shields.io/badge/KakaoDev-221E68?style=for-the-badge&logo=Kakao&logoColor=white">
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=FastAPI&logoColor=white">
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white">
+  <img src="https://img.shields.io/badge/KakaoDev-221E68?style=for-the-badge&logo=Kakao&logoColor=white">
 </div>
 
 <div align=left><h3>🕹️ AI Core</div>
 <div align=left>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+  <img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=Numpy&logoColor=white">
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white">
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white">
   <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=OpenAI&logoColor=white">
   <img src="https://img.shields.io/badge/Transformer-131622?style=for-the-badge&logo=Transformer&logoColor=white">
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white">
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white">
-  <img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=Numpy&logoColor=white">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
 </div>
 
 <div align=left><h3>🕹️ Deploy & Infra</div>
 <div align="left">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white">
   <img src="https://img.shields.io/badge/GitHub Runner-2088FF?style=for-the-badge&logo=GitHub Runner&logoColor=white">
   <img src="https://img.shields.io/badge/GitHub Actions-2088FF?style=for-the-badge&logo=GitHub Actions&logoColor=white">
-  <img src="https://img.shields.io/badge/Amazon Web Services-232F3E?style=for-the-badge&logo=Amazon Web Services&logoColor=white">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white">
   <img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=NGINX&logoColor=white">
+  <img src="https://img.shields.io/badge/Amazon Web Services-232F3E?style=for-the-badge&logo=Amazon Web Services&logoColor=white">
+  <img src="https://img.shields.io/badge/Amazon Route 53=8C4FFF?style=for-the-badge&logo=Amazon Route 53&logoColor=white">
 </div>
 
 <div align=left><h3>🕹️ Dev Tool </div>
 <div align="left">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white">
-  <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=Slack&logoColor=white">
-  <img src="https://img.shields.io/badge/Visual Studio Code-008CFF?style=for-the-badge&logo=Visual Studio Code&logoColor=white">
-  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
-  <img src="https://img.shields.io/badge/Pycharm-000000?style=for-the-badge&logo=Pycharm&logoColor=white">
   <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
-</div>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white">
+  <img src="https://img.shields.io/badge/Visual Studio Code-008CFF?style=for-the-badge&logo=Visual Studio Code&logoColor=white">
+  <img src="https://img.shields.io/badge/Pycharm-000000?style=for-the-badge&logo=Pycharm&logoColor=white">
+  <img src="https://img.shields.io/badge/DBeaver-382923?style=for-the-badge&logo=DBeaver&logoColor=white">
+  <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=Discord&logoColor=white">
+  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
+  <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=Slack&logoColor=white">
+</div>                                                                                             
+<br><br>
 
-                                                                                                       
-<br><br><br>
 
 # 12. Deploy Issue (배포 이슈)
 - **FastAPI 수동 배포 중 Docker Image 오류**
@@ -572,9 +566,8 @@ jobs:
       echo "GHCR토큰" | docker login ghcr.io -u 계정 --password-stdin
       ```
     - .env로 관리하는 정보에 Github 계정은 docker build 구성할 때 사용한 계정
+<br><br>
 
-
-<br><br><br>
 
 # 13. 테스트 보고서 (CI 테스트 결과)
 <table align="center">
@@ -591,8 +584,8 @@ jobs:
     </tr>
   </tbody>
 </table>
+<br><br>
 
-<br><br><br>
 
 # 14. 한 줄 회고
 ### 🌊 이경민
