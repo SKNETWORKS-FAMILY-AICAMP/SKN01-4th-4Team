@@ -227,7 +227,7 @@ jobs:
           -d '{"event_type": "FRONTEND_TEST_FINISH_TRIGGER", "client_payload": { "repository": "'"$GITHUB_REPOSITORY"'" }}'
 ```
 
-### 4. Actions에서 CI 구동 확인하기
+### 3. Actions에서 CI 구동 확인하기
 <img src="https://github.com/user-attachments/assets/91ff498e-c28f-4062-9f38-593936610521"/>
 
 
