@@ -277,6 +277,9 @@
         1. <p>태그로 분리해서 출력
         2. 띄어쓰기, \n 없이 출력
 ```
+![image](https://github.com/user-attachments/assets/09752406-7ce2-491d-a00d-afc953464905)
+
+
 <br><br>
 
 # 5. Result (수행 결과)
