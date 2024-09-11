@@ -10,7 +10,7 @@
 # 1. Introduction Team (팀 소개)
 
 1. **팀명 : 🧑🏻‍🌾 TextFarmers(TF)**
-2. 2. **구성원**
+2. **구성원**
 <table align="center">
   <tbody>
     <tr>
