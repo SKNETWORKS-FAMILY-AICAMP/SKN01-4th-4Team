@@ -1,9 +1,16 @@
 # SKN01-4th-4Team
-Vue + Django + FastAPI + Deep Learning Local Server 서비스
 
-### 🧑🏻‍🌾 TextFarmers(TF)
+> **LLM을 활용한 챗봇 서비스 개발**
+>
+ → Vue + Django + FastAPI + Deep Learning Local Server 서비스
+
+<br><br>
+
 
 # 1. Introduction Team (팀 소개)
+
+1. **팀명 : 🧑🏻‍🌾 TextFarmers(TF)**
+2. 2. **구성원**
 <table align="center">
   <tbody>
     <tr>
@@ -29,32 +36,71 @@ Vue + Django + FastAPI + Deep Learning Local Server 서비스
   </tbody>
 </table>
 <br>
+    
+3. **팀 문화**
+    - **Agile Board** (with Notion)
+        
+        -서버별 별도의 애자일 보드 작성 및 관리
 
-# 2. Introduction Project (프로젝트 개요)
-### 💙 서비스명 💙
-**TextFarmers**
+        -Task 달성률 77% (20/26 개)
+  
+                   
+        <div>-Frontend 애자일 보드 - 화면 설계서
+        
+        ![image](https://github.com/user-attachments/assets/6e391887-b9a4-4cb7-aa13-71ec49599455)
+        </div>
 
-### 🧡 소개 🧡
-**의료 데이터를 활용한 챗봇 서비스**  
 
-### 💚 필요성 💚
-![image](https://github.com/user-attachments/assets/7e8e6655-ef8e-47b0-a836-afbee9a00fa9)
-현대 사회에서 의료 데이터의 중요성이 점점 커지고 있습니다.</br>
-2024년 의료 정책 추진 반대 집단 행동(aka. 의사 파업)과 같은 사건으로 인해</br>
-우리가 언제든지 원할 때 필요한 진료를 받을 수 있다는 안정성이 떨어지며,</br>
-우리 스스로 최소한의 의료 지식을 습득해야 할 필요성이 생겼습니다.</br>
-하지만 복잡한 의료 정보와 데이터는 일반 대중에게는 접근하기 어렵고</br>
-의료계에 지인이 있는 것이 아니라면  물어볼 곳 역시 마땅치 않습니다.</br>
-이를 해결하기 위해 딥러닝 기술로 의료 데이터를 학습하여 접근하기 어려웠던 의료 데이터를</br>
-모두가 쉽게 접근할 수 있도록 사용자 친화적인 챗봇 서비스를 개발하고자 합니다.
+        <div>-FastAPI 애자일 보드 - AI 서빙 설계서
+
+        ![image](https://github.com/user-attachments/assets/25db9a4a-a01c-4199-8dba-96f37b90066e)
+        </div>
+
+
+        <div>-Ai-Client 애자일 보드 - AI 서빙 설계서
+
+        ![image](https://github.com/user-attachments/assets/9ad8b650-2fc2-4aa9-a132-44e20ab309c8)
+        </div>
+          
+
+      
+                    
+    - **Weekly Review** (with Notion)
+        
+        -매주 회고를 진행하며, 진행사항/이슈사항/차주계획를 공유
+
+    - **Issue Handling** (with Discord)
+
+        -Discord의 Issue채널에 이슈사항 실시간 공유
+        
+        -Github와 Discord 연동으로 Git 커밋 및 PR 실시간 확인 가능
+
 <br><br>
 
-### 💛 주요 서비스 💛
-- 건강 진단 챗봇 서비스
-- 의료 정보 제공
-- 성격유형검사(MBTI) T형과 F형 응답을 선택
- <br><br>
- 
+# 2. Introduction Project (프로젝트 개요)
+
+1. **서비스명** : TextFarmers
+2. **서비스 소개** 
+
+    - 의료 정보 제공 챗봇 서비스
+    
+    - 성격유형검사(MBTI) T형과 F형 응답을 선택, 이로 인해 심리적 안정감 제공
+
+
+    
+3. **기획 배경**
+
+    - problem
+    
+        외부 요인(의사 파업, 팬데믹 상황, 정책 변화 등)으로 인한 보건 및 의료의 접근에 예상치 못한 불확실성 존재
+
+        ![image](https://github.com/user-attachments/assets/7e8e6655-ef8e-47b0-a836-afbee9a00fa9)
+
+    - solution
+
+        **의료 데이터와 LLM을 사용**하여 의료 정보의 접근성을 높이는 사용자 친화적인 챗봇 서비스를 개발
+
+<br><br>
 
 # 3. ERD 구성
 ![image](https://github.com/user-attachments/assets/cb79aba5-ca4c-4cdd-88ec-a622608aba62)
@@ -72,21 +118,6 @@ Vue + Django + FastAPI + Deep Learning Local Server 서비스
 고로 빠르게 팀원들과 협업 할 수 있고 소통 비용을 최소화시킬 수 있습니다.
 작은 것 같지만 이와 같은 것들이 쌓여서 아주 기민하고 민첩한 조직을 만들어 냅니다.
 ```
-<br><br>
-
-
-# 5. Frontend 애자일 보드 - 화면 설계서
-![image](https://github.com/user-attachments/assets/6e391887-b9a4-4cb7-aa13-71ec49599455)
-<br><br>
-
-
-# 6. FastAPI 애자일 보드 - AI 서빙 설계서
-![image](https://github.com/user-attachments/assets/25db9a4a-a01c-4199-8dba-96f37b90066e)
-<br><br>
-
-
-# 7. Ai-Client 애자일 보드 - AI 서빙 설계서
-![image](https://github.com/user-attachments/assets/9ad8b650-2fc2-4aa9-a132-44e20ab309c8)
 <br><br>
 
 
